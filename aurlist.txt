@@ -1,7 +1,6 @@
 image-roll-bin
 kora-icon-theme
 noctalia-greeter
-sober-bin
 spotify
 yay
 yay-debug
