@@ -1,7 +1,0 @@
-configuration {
-    show-icons: true;
-    icon-theme: "Papirus-Dark";
-    me-select-entry: "";
-    me-accept-entry: "MousePrimary";
-}
-@theme "~/.config/rofi/launchers/type-2/style-1.rasi"

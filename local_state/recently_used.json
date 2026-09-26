@@ -1,0 +1,16 @@
+{
+  "Applications": [
+    "/usr/share/applications/discord.desktop",
+    "/usr/share/applications/space.bigrat.mocktail.desktop",
+    "/usr/share/applications/firefox.desktop",
+    "/usr/share/applications/com.github.weclaw1.ImageRoll.desktop",
+    "/usr/share/applications/spotify.desktop",
+    "/usr/share/applications/org.bleachbit.BleachBit.desktop",
+    "/usr/share/applications/nwg-look.desktop",
+    "/usr/share/applications/dev.noctalia.Noctalia.desktop",
+    "/usr/share/applications/nvim.desktop",
+    "desktop-action:53:/usr/share/applications/dev.noctalia.Noctalia.desktop:Settings",
+    "/usr/share/applications/gparted.desktop",
+    "/usr/share/applications/btop.desktop"
+  ]
+}

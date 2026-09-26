@@ -1,0 +1,8 @@
+schema=2
+format=native-directory
+context=launch
+reason=launch-failed
+exit_code=1
+kernel_name=Linux
+kernel_release=7.2.7-arch1-1
+architecture=x86_64

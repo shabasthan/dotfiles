@@ -1,0 +1,599 @@
+[mocktail] version=1.0.3 commit=c5230485182e dirty=true build=Release compiler="GNU 16.2.1"
+[mocktail] started=2026-09-27T00:14:04+05:30 package=system-install target=Linux/x86_64 host="Linux 7.2.7-arch1-1 x86_64" pid=9298
+[mocktail] cpu="Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz" threads=4 ram=7887MiB gpu="NVIDIA Corporation GK208B [GeForce GT 710]" gpu_driver="nouveau" display=wayland graphics=opengl
+[mocktail] executable=/usr/bin/mocktail config=~/.config/mocktail/config.yaml
+[mocktail] log=~/.local/state/mocktail/logs/sessions/2026-09-27_00-14-04.log
+  [runtime] graphics backend=opengl (EGL/OpenGL ES)
+  [gamemode] unavailable; continuing normally
+[native-updater] kept Roblox 2.736.1408 (2998); Roblox 2.738.1397 (3092) already failed probation with this runtime; Roblox 2.738.1397 is published, so this session can be rejected as outdated
+[native-updater] warning: the active Roblox payload is out of date and joining an experience can be refused
+2998-ade08266c67aee88ec9c1d00902150e1684dad3a
+  [runtime] device profile=pc-windows-11 class=pc model="Windows 11 PC"
+  [runtime] HttpClient compatibility mode enabled: generic LuaApp retry and RuntimeMutexRv disabled
+  [runtime] Roblox crash-report uploads disabled by mandatory policy
+  [runtime] physics worker mode=throughput: 4 scheduler workers, async minimum=3, midphase batch=128
+  [runtime] full multithreaded engine queues enabled: 4 scheduler workers, 2 occlusion workers
+  [fullscreen] Roblox menu bridge armed for Build ID ade08266c67aee88ec9c1d00902150e1684dad3a
+  [audio-menu] host output bridge armed for Build ID ade08266c67aee88ec9c1d00902150e1684dad3a
+  [runtime] BrowserTracker bootstrap skipped: BrowserTracker initialization was rejected (HTTP 500)
+  [auth] typed Roblox identity resolved for production VM
+  [runtime] desktop app-policy ready: normalized=1 updated=1 runtime_override=1
+  [mocktail][audio] SDL playback devices:
+    - default (follows the host system default)
+    - GK208 HDMI/DP Audio Controller Digital Stereo (HDMI) [VX2370 SERIES]
+    - GHW-123P Analog Stereo
+    - ThinkPad Hybrid USB-C with USB-A Dock Digital Stereo (IEC958)
+    - Built-in Audio Digital Stereo (IEC958)
+  [mocktail][audio] selected output=default
+  [mocktail][audio] SDL recording devices:
+    - default (follows the host system default)
+    - id:22 GHW-123P Analog Stereo
+    - id:30 ThinkPad Hybrid USB-C with USB-A Dock Digital Stereo (IEC958)
+    - id:38 Built-in Audio Analog Stereo
+  [mocktail][audio] selected input=default
+======================================================
+  Mocktail Roblox Compatibility Layer
+======================================================
+  [compat] Roblox 2.736.1408 Build ID ade08266c67aee88ec9c1d00902150e1684dad3a (supported)
+  [compat] legacy binary patches: disabled
+  [compat] Build-ID host ABI profile: allowed
+  [compat] Build-ID constructor replay: allowed
+  [auth] typed Roblox credential ready for native startup
+  [compat] signal-recovery handler disabled for this Build ID
+[stage 1] Initialising Bionic linker + Pseudo-JVM
+  mcpelauncher Bionic linker initialised.
+  Pseudo-JVM instance created successfully.
+[stage 2] Registering Android SDK JNI classes
+  Registered 53 JNI class(es)
+  [window] Creating 1280x720 window...
+  [window] SDL window icon unavailable: SDL_SetWindowIcon failed: wayland: cannot set icon; required xdg_toplevel_icon_v1 protocol not supported
+  [window] SDL3 window created (1280x720)
+  [window] hidden until first Roblox frame
+  [window] OpenGL ES context version=3.0
+  [window] EGL context and surface initialized via SDL3
+  [window] native window=0x55b4b43f9580
+  [window] display refresh current=60.000 Hz modes=1
+  [input] SDL event pump target=240 Hz raw-motion, no smoothing
+  [window] window initialisation complete (context NOT yet current — call MakeCurrentOnThread from engine thread)
+  [window] Window ready; waiting for Roblox frames
+  [theme] Roblox saved theme=dark
+  [window] windowed startup: auto-enabled AppLifecycleNativeAdapter.setActive
+[stage 3] Building Bionic symbol table from stubs
+  [libc_shim] Host CA bundle mapped from system trust store
+  [libc_shim] Path shims installed (13 prefix mappings)
+  [graphics] Bionic libEGL adapter loaded from /usr/lib/mocktail/libEGL.so (21 exports)
+  [stubs] Preloaded libc.so via exact Mocktail adapter
+  [stubs] Preloaded libdl.so via exact Mocktail adapter
+  [stubs] Preloaded libm.so via exact Mocktail adapter
+  [stubs] Preloaded libz.so via exact Mocktail adapter
+  [stubs] Preloaded libandroid.so via exact Mocktail adapter
+  [stubs] Preloaded liblog.so via exact Mocktail adapter
+  [stubs] Preloaded libmediandk.so via exact Mocktail adapter
+  [stubs] Preloaded libOpenSLES.so via exact Mocktail adapter
+  [stubs] Preloaded libOpenMAXAL.so via exact Mocktail adapter
+  [stubs] Preloaded libEGL.so via exact Mocktail adapter
+  [stubs] Preloaded libGLESv2.so via exact Mocktail adapter
+  [gles] Using real GLES from /usr/lib/libGLESv2.so.2
+  [linker] Registered 428 / 436 known symbols.
+  [linker] GL symbol resolution: total=74, window=74, real_gles=0, stub=0, host=0, unresolved=0
+  [linker] Auto-registered 209 additional ELF symbols from /home/akkiii/.local/share/mocktail/payloads/2998-ade08266c67aee88ec9c1d00902150e1684dad3a/libroblox.so
+  [linker] Registered typed Bionic pthread/sysconf/signal/stdio ABI for libc.so
+  [linker] dl_iterate_phdr routed to Bionic linker before SONAME snapshots
+  [linker] Registered synthetic library 'libc.so' with 644 export(s)
+  [linker] Registered synthetic library 'libdl.so' with 542 export(s)
+  [linker] Registered synthetic library 'libm.so' with 539 export(s)
+  [linker] Registered synthetic library 'libz.so' with 539 export(s)
+  [linker] Registered synthetic library 'libandroid.so' with 539 export(s)
+  [linker] Registered synthetic library 'liblog.so' with 539 export(s)
+  [linker] Registered synthetic library 'libmediandk.so' with 539 export(s)
+  [linker] Registered synthetic library 'libOpenSLES.so' with 539 export(s)
+  [linker] Registered synthetic library 'libOpenMAXAL.so' with 539 export(s)
+  [linker] Registered synthetic library 'libEGL.so' with 539 export(s)
+  [linker] Registered synthetic library 'libGLESv2.so' with 539 export(s)
+  Library path: /home/akkiii/.local/share/mocktail/payloads/2998-ade08266c67aee88ec9c1d00902150e1684dad3a/libroblox.so
+  [compat] native allocator retained; host allocator bridges disabled
+linker: mcpelauncher_linker_notifylldb /home/akkiii/.local/share/mocktail/payloads/2998-ade08266c67aee88ec9c1d00902150e1684dad3a/libroblox.so 0x7fe6b8440000
+  [compat] wrapping .init_array @+0x7057818 count=3570
+  [compat] Wrapped 3570 constructors for typed replay
+  [ctor] Active index range [2, 3570)
+  [ctor] Native mimalloc integration probe selected; host allocator bridges are disabled
+  [ctor] Default unsafe ctor quarantine disabled
+  [compat] running libroblox static constructors (MOCKTAIL_SKIP_LIBROBLOX_CTORS=0)
+  [ctor] Native mimalloc thread state initialized after [2]
+  [ctor] Summary: executed=3568 skipped_by_range=2 skipped_by_default=0 skipped_by_index=0 skipped_by_env=0
+  [linker] Loaded '/home/akkiii/.local/share/mocktail/payloads/2998-ade08266c67aee88ec9c1d00902150e1684dad3a/libroblox.so' as 'libroblox'
+  [linker] Bionic unwind metadata validated for libroblox
+[stage 5] Invoking JNI_OnLoad in libroblox.so
+  [compat] native pre-JNI registry initialized
+  [jvm] JNI_OnLoad timeout watchdog armed: 3000ms
+  [audio-menu] exposed 5 host output routes; selected=System Default
+    [audio-menu] System Default
+    [audio-menu] GK208 HDMI/DP Audio Controller Digital Stereo (HDMI) [VX2370 SERIES]
+    [audio-menu] GHW-123P Analog Stereo
+    [audio-menu] ThinkPad Hybrid USB-C with USB-A Dock Digital Stereo (IEC958)
+    [audio-menu] Built-in Audio Digital Stereo (IEC958)
+[D/JNIMain] TelemetryProtocol::setProcessTimeOverride: 0
+  JNI_OnLoad returned. Requested JNI version: 0x00010006
+  [compat] skipped all fixed-offset post-JNI patches
+[stage 6] Invoking Roblox startup entry points
+  [jvm] restoring env->functions after JNI_OnLoad (was 0x7fe678721088)
+  [jvm] env->functions now 0x55b4b4390d30
+  [experience] dynamic GAME symbols ready
+  [engine] Stage6 symbol resolve done
+    native_init_with_params=0x7fe6ba86b46e
+    native_init_client_settings=0x7fe6ba714f97
+    native_init_client_settings_signed=0x7fe6bb2e1c51
+    native_init_client_settings_cached=0x7fe6bb2e1f61
+    native_init_client_settings_cached_compressed=0x7fe6bb2e21dd
+    native_initialize_native_flags=0x7fe6ba821c62
+    native_app_bridge_app_start=0x7fe6ba83ae5d
+    native_set_is_first_install=0x7fe6bb2e8cef
+    native_update_adapter_init=0x7fe6ba709b5d
+    native_update_app_ui_sizes=0x7fe6baaa0ee2
+    native_update_surface_app=0x7fe6bab487a0
+    native_start_app_with_params=0x7fe6baad3057
+    native_send_app_ready=0x7fe6bb2e6166
+    native_send_game_loaded=0x7fe6bb2e5cc9
+    native_start_lua_app_dm=0x7fe6ba9198c2
+    native_call_messages_from_main_thread=0x7fe6bb2de16d
+    native_base_url_protocol_init=0x7fe6ba6cfcef
+    native_set_device_info=0x7fe6ba836df2
+    native_override_channel_platform_name=0x7fe6ba6dfa8a
+    native_set_roblox_version=0x7fe6ba6e3a8e
+    native_set_http_client_proxy=0x7fe6ba707b2e
+    native_init_fast_log=0x7fe6ba6dfd15
+    native_set_multiple_cookies=0x7fe6ba6ec9b5
+    native_cookie_manager_set_cookie=0x7fe6bb2ffab4
+    native_set_platform_headers_with_idfa=0x7fe6ba7189da
+    native_local_storage_set_platform_impl=0x7fe6bb75df73
+    native_retry_init=0x7fe6bb300d0f
+    native_set_asset_path=0x7fe6bb300da9
+    activity_on_pre_created=0x7fe6ba6d78e0
+    activity_on_created=0x7fe6ba6dd28c
+    activity_on_post_created=0x7fe6ba188b70
+    activity_on_pre_started=0x7fe6ba6de1e9
+    activity_on_started=0x7fe6ba6de209
+    activity_on_post_started=0x7fe6ba188b70
+    activity_on_pre_resumed=0x7fe6ba6de229
+    activity_on_resumed=0x7fe6ba6de249
+    activity_on_post_resumed=0x7fe6ba188b70
+    native_game_activity_init=0x7fe6bae48e70
+    native_app_lifecycle_set_active=0x7fe6ba6de269
+    native_on_fragment_start=0x7fe6ba188b70
+    native_pass_supported_refresh_rates=0x7fe6ba83530b
+    native_pass_current_display_refresh_rate=0x7fe6ba83522d
+  [compat] skipped fixed-offset Stage 6 patch set
+  [engine] startup decisions resolved. run_prepare_jni=1
+  run_init_with_params=1 run_start_app_with_params=1
+  [platform] WebView, BrowserService and Permissions protocols initialized before native bootstrap
+  [permissions] PermissionsProtocol ready microphone=enabled legacy=5 async=5
+  [platform] Android WebViewProtocol, BrowserService and PermissionsProtocol bridges ready
+  [engine] starting pthread startup path
+  [engine] creating startup thread
+  [engine] startup thread create result=0
+  [engine] joining startup thread with timeout 120000ms
+  [engine] EngineStartupThread entered, context=0x7ffc40261650
+  [engine] context flags: prepare=1 setAsset=1 initWithParams=1
+  [engine] thread java_vm=0x55b4b4390d20 shared_vm=0x55b4b4390ce0
+  [engine] entering AttachCurrentThread
+  [engine] AttachCurrentThread result=0 raw_env=0x7fe673ffdbf0
+  [engine] native allocator TLS initialized
+  [engine] env->functions restored: 0x55b4b4390d30
+  [settings] flags unchanged
+  [engine] BuildStartGameParams begin
+  [engine] NativeGLJavaInterface.setImplementation
+  [engine] NativeGLJavaInterface.setImplementation returned
+  [engine] nativeSetAssetPath
+  [engine] nativeSetAssetPath returned
+  [engine] NativeSettings directories
+  [engine] typed credential prepared bytes=1188
+  [engine] NativeSettings exceptionReasonFilename=exception_reason.txt
+  [engine] NativeSettings baseUrl=https://www.roblox.com/ apiUrl=https://api.roblox.com/
+  [engine] NativeSettings robloxChannel=production
+  [engine] NativeSettings channelPlatformName=GoogleAndroidApp
+  [engine] NativeSettings robloxVersion=2.736.1408
+  [engine] NativeSettings deviceInfo
+[I/rbx.JNIRobloxSettings] Setting default app policy file: content/guac/defaultConfigs/GuacDefaultPolicy-GlobalDist.json
+  [engine] NativeSettings initFastLog
+  [engine] JNICookieManager.setCookie skipped; set MOCKTAIL_JNI_COOKIE_MANAGER_SET_COOKIE=1 to force
+[I/Roblox] [FLog::Output] All use of Roblox services must comply with Roblox's Terms of Use, Privacy Policy, Community Standards, and applicable laws. Processing of User personal information is limited to the purposes expressly permitted therein.
+  [engine] NativeSettings multipleCookies base=https://www.roblox.com/ bytes=1188
+  [engine] NativeSettings multipleCookies returned
+  [engine] NativeSettings userId=7383530822
+  [engine] JNIAAssetManagerSetup.initNative
+  [engine] JNIAAssetManagerSetup.initNative returned
+  [engine] LocalStorageManager.initStorageManagerNativeV3 files=/data/user/0/com.roblox.client/files cache=/data/user/0/com.roblox.client/cache
+  [engine] LocalStorageManager.initStorageManagerNativeV3 returned
+  [engine] JNIBaseUrlProtocol.init
+  [engine] JNIBaseUrlProtocol.init returned
+  [engine] NativeSettings directories returned
+  [engine] nativeGameGlobalInit
+  [engine] nativeGameGlobalInit returned
+  [engine] nativeUpdateAdapterInit
+  [engine] nativeUpdateAdapterInit returned
+  [engine] nativeInitClientSettings
+[I/Roblox] 2026-09-26T18:44:07.624Z,0.624370,73fff6c0,6 [FLog::AndroidGLView] nativeInitClientSettings
+[I/Roblox] 2026-09-26T18:44:07.655Z,0.655845,73fff6c0,6,Info [DFLog::FlagCache] [FlagCache] Deferring flag cache write to post TTI
+  [engine] nativeInitClientSettings returned 0 via classic
+  [engine] reapplying NativeSettings after nativeInitClientSettings
+  [engine] typed credential prepared bytes=1188
+  [engine] NativeSettings exceptionReasonFilename=exception_reason.txt
+  [engine] NativeSettings baseUrl=https://www.roblox.com/ apiUrl=https://api.roblox.com/
+  [engine] NativeSettings robloxChannel=production
+  [engine] NativeSettings channelPlatformName=GoogleAndroidApp
+  [engine] NativeSettings robloxVersion=2.736.1408
+  [engine] NativeSettings deviceInfo
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657445,73fff6c0,6 [FLog::Output] RobloxChannel has been set to production
+[I/rbx.JNIRobloxSettings] Setting default app policy file: content/guac/defaultConfigs/GuacDefaultPolicy-GlobalDist.json
+  [engine] NativeSettings initFastLog
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657769,73fff6c0,6,Info [FLog::CreatorOutput] Info: Setting up fast log system.
+[I/Roblox] [FLog::Output] All use of Roblox services must comply with Roblox's Terms of Use, Privacy Policy, Community Standards, and applicable laws. Processing of User personal information is limited to the purposes expressly permitted therein.
+  [engine] JNICookieManager.setCookie skipped; set MOCKTAIL_JNI_COOKIE_MANAGER_SET_COOKIE=1 to force
+  [engine] NativeSettings multipleCookies base=https://www.roblox.com/ bytes=1188
+  [engine] NativeSettings multipleCookies returned
+  [engine] NativeSettings userId=7383530822
+  [engine] nativePostClientSettingsLoadedInitialization3
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657869,73fff6c0,6 [FLog::AndroidGLView] nativePostClientSettingsLoadedInitialization3
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657891,73fff6c0,6 [FLog::ClientRunInfo] RobloxGitHash: cea83448758075609fb2b1612bd7448a249e63d7
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657909,73fff6c0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+[I/Roblox] 2026-09-26T18:44:07.657Z,0.657916,73fff6c0,6 [FLog::ClientRunInfo] The channel is production
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658015,73fff6c0,6,Info [DFLog::AppPlatformQoSEmergency] AppPlatformQoSEmergencyHandler was instanced.
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658146,73fff6c0,6,Critical [DFLog::Mimalloc] Mimalloc integration detected, settings:
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658157,73fff6c0,6,Critical [DFLog::Mimalloc] mi_option_show_errors=1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658164,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_show_stats=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658171,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_verbose=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658177,73fff6c0,6,Critical [DFLog::Mimalloc] mi_option_eager_commit=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658183,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_arena_eager_commit=2
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658189,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_purge_decommits=1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658195,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_allow_large_os_pages=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658201,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_reserve_huge_os_pages=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658206,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_reserve_huge_os_pages_at=-1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658212,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_reserve_os_memory=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658218,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_deprecated_segment_cache=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658224,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_deprecated_page_reset=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658230,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_abandoned_page_purge=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658236,73fff6c0,6,Critical [DFLog::Mimalloc] mi_option_purge_delay=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658242,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_deprecated_segment_reset=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658248,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_eager_commit_delay=1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658254,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_use_numa_nodes=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658260,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_disallow_os_alloc=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658266,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_os_tag=100
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658271,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_max_errors=32
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658277,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_max_warnings=32
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658283,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_deprecated_max_segment_reclaim=10
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658290,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_destroy_on_exit=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658295,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_arena_reserve=1048576
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658301,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_arena_purge_mult=1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658306,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_deprecated_purge_extend_delay=1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658321,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_disallow_arena_alloc=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658327,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_retry_on_oom=400
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658334,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_visit_abandoned=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658349,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_guarded_min=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658355,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_guarded_max=1073741824
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658362,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_guarded_precise=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658369,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_guarded_sample_rate=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658375,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_guarded_sample_seed=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658383,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_reclaim_on_free=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658391,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_full_retain=2
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658398,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_max_candidates=4
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658406,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_max_vabits=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658414,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_pagemap_commit=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658421,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_commit_on_demand=0
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658429,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_max_reclaim=-1
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658435,73fff6c0,6,Info [DFLog::Mimalloc] mi_option_page_cross_thread_max_reclaim=32
+[I/Roblox] 2026-09-26T18:44:07.658Z,0.658441,73fff6c0,6,Critical [FLog::Output] Build system id: 1
+[I/Roblox] 2026-09-26T18:44:07.666Z,0.666027,73fff6c0,6,Info [DFLog::RbxTransportIoLibContext] RbxTransport I/O backend chosen: sys
+[I/Roblox] 2026-09-26T18:44:07.666Z,0.666142,73fff6c0,6,Info [DFLog::RbxTransportRnaExp] Initialized RtcIoRna with 1 event loop threads
+[I/Roblox] 2026-09-26T18:44:07.666Z,0.666205,73fff6c0,6,Info [FLog::AppMemUsageStatus] 923286370
+[I/Roblox] 2026-09-26T18:44:07.666Z,0.666281,c47fd6c0,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] user: flagLoaded, availableDiskSpace: 96318083072 bytes, elapsed: 0.023 ms
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331018,c47fd6c0,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: MultiCache(TelemetryCache(SqliteCache+TelemetryCache(FileCache(temp))), TelemetryCache(FileCache(perm)), TelemetryCache(FileCache(session_scoped))), duration: 4.344 ms, dbOpenCount: 2
+  [engine] nativePostClientSettingsLoadedInitialization3 returned
+  [engine] NativeGLJavaInterface.setAppBridgeNotificationListener
+  [engine] NativeGLJavaInterface.setAppBridgeNotificationListener returned
+  [engine] nativeAppBridgeV2InitWithParams
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331354,73fff6c0,6,Warning [FLog::IxpStorageManager] Failed to open cache file for reading
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331450,73fff6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry 360, holdout false, channel 'production', read from file: /data/user/0/com.roblox.client/cache/tombstone.dat
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331465,73fff6c0,6,Info [FLog::TombstoneCache] [FlagCache] Setting holdout experiment state to: false
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331472,73fff6c0,6,Warning [FLog::LocalStorageHandler] Not available on the current platform.
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331805,73fff6c0,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2Init:
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331927,d811d6c0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+[I/Roblox] 2026-09-26T18:44:08.331Z,1.331946,d811d6c0,6 [FLog::SingleSurfaceApp] initializeSingleton
+[I/Roblox] 2026-09-26T18:44:08.332Z,1.332515,d811d6c0,6 [FLog::Output] Evaluating deferred inferred crashes
+[I/Roblox] 2026-09-26T18:44:08.333Z,1.333979,d811d6c0,6 [FLog::SingleSurfaceApp] registerForForceOTAUpdateAvailableConnection stage = 0
+[I/Roblox] 2026-09-26T18:44:08.334Z,1.334684,d811d6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Load configs for user key: app:14450630165483085263
+[I/Roblox] 2026-09-26T18:44:08.335Z,1.335482,d811d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+[I/Roblox] 2026-09-26T18:44:08.335Z,1.335504,d811d6c0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+[I/Roblox] 2026-09-26T18:44:08.335Z,1.335568,d811d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+[I/Roblox] 2026-09-26T18:44:08.335Z,1.335580,d811d6c0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+[I/Roblox] 2026-09-26T18:44:08.335Z,1.335629,d811d6c0,6,Info [DFLog::CoordinatorMemoryPressure] Setting memory pressure threshold to none
+  [engine] nativeAppBridgeV2InitWithParams returned
+  [engine] NativeGLInterface.nativeOnFragmentStart
+  [engine] NativeGLInterface.nativeOnFragmentStart returned
+  [engine] NativeGLInterface.nativePassCurrentDisplayRefreshRate 60
+  [engine] NativeGLInterface.nativePassCurrentDisplayRefreshRate returned
+  [engine] NativeGLInterface.nativePassSupportedRefreshRates count=1
+  [engine] NativeGLInterface.nativePassSupportedRefreshRates returned
+  [engine] nativeAppBridgeStartLuaAppDM
+[I/Roblox] 2026-09-26T18:44:08.336Z,1.336930,73fff6c0,6,Info [FLog::JNIAppBridge] nativeAppBridgeStartLuaAppDM: Calling initializeLuaAppWithLoggedInUser
+[I/Roblox] 2026-09-26T18:44:08.337Z,1.337015,d811d6c0,6 [FLog::SingleSurfaceApp] initializeLuaAppWithLoggedInUser: (stage:Native).
+[I/Roblox] 2026-09-26T18:44:08.337Z,1.337033,d811d6c0,6 [FLog::SingleSurfaceApp] applyLocale
+[I/Roblox] 2026-09-26T18:44:08.337Z,1.337665,d811d6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Retrieving patch
+[I/Roblox] 2026-09-26T18:44:08.337Z,1.337679,d811d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=118593852151835, assetVersion=12508, maxAppVersion=736, localAssetURI=rbxasset://models/UniversalApp/UniversalApp.rbxm
+[I/Roblox] 2026-09-26T18:44:08.337Z,1.337688,d811d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: config: 118593852151835.12508
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340182,c51fe6c0,6,Warning [FLog::Output] Hello World :DD CLI-219667
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340209,c51fe6c0,6,Warning [FLog::Output] Hello world, CLI-208683!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340217,c51fe6c0,6,Warning [FLog::Output] Hello world, CLI-207485!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340225,c51fe6c0,6,Warning [FLog::Output] Hello again, world 206748!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340232,c51fe6c0,6,Warning [FLog::Output] Hello world CLI-206426!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340240,c51fe6c0,6,Warning [FLog::Output] Hello world ...!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340248,c51fe6c0,6,Warning [FLog::Output] Hello 198367!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340255,c51fe6c0,6,Warning [FLog::Output] Hello World! **CLI-199819**
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340263,c51fe6c0,6,Warning [FLog::Output] Hello World! CLI-204362
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340271,c51fe6c0,6,Warning [FLog::Output] Hello World! from CLI-206127
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340278,c51fe6c0,6,Warning [FLog::Output] Hello World! CLI-210716
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340286,c51fe6c0,6,Warning [FLog::Output] Hello World! CLI210530
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340293,c51fe6c0,6,Warning [FLog::Output] Hello World CLI-212185!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340301,c51fe6c0,6,Warning [FLog::Output] Hello World! From Da Greatest - CLI213795
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340308,c51fe6c0,6,Warning [FLog::Output] Hello World CLI-214387!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340315,c51fe6c0,6,Warning [FLog::Output] Hello World CLI-214500!
+[I/Roblox] 2026-09-26T18:44:08.340Z,1.340322,c51fe6c0,6,Warning [FLog::Output] Hello World CLI-219851!
+[I/Roblox] 2026-09-26T18:44:08.346Z,1.346540,d811d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: numAttemptsRemaining: 1
+[I/Roblox] 2026-09-26T18:44:08.346Z,1.346614,d811d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=rbxasset://models/UniversalApp/UniversalApp.rbxm
+[I/Roblox] 2026-09-26T18:44:08.354Z,1.354739,d811d6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: get patch from content provider for Model
+[I/Roblox] 2026-09-26T18:44:08.359Z,1.359966,d811d6c0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+[I/Roblox] 2026-09-26T18:44:08.415Z,1.415117,d811d6c0,6,Warning [FLog::SingleSurfaceApp] Register rendering frequency during startup.
+[I/Roblox] 2026-09-26T18:44:08.415Z,1.415282,d811d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:InitializedLuaApp)
+  [engine] nativeAppBridgeStartLuaAppDM returned
+  [engine] NativeGLInterface.setTaskSchedulerBackgroundMode scheduled on main thread
+[I/Roblox] 2026-09-26T18:44:08.415Z,1.415318,c51fe6c0,6,Info [FLog::CreatorOutput] Info: DataModel Loading rbxasset://places/Mobile.rbxl
+[I/Roblox] 2026-09-26T18:44:08.418Z,1.418064,c51fe6c0,6,Info [FLog::TestServiceLog] [onServiceProvider] DebugUTPLauncherWebSocketUri='' wsOptIn=0
+[I/Roblox] 2026-09-26T18:44:08.418Z,1.418091,c51fe6c0,6,Info [FLog::TestServiceLog] [onServiceProvider] this=0x7fe67a3a1580 dm=0x7fe67a075080 wsOptIn=0 isStudio=0 isServer=0 isPlayClient=0 isNonNetworkEdit=1
+  [main] NativeGLInterface.setTaskSchedulerBackgroundMode(false, ASMA.start)
+[I/Roblox] 2026-09-26T18:44:08.425Z,1.425418,e43ad440,6 [FLog::AndroidGLView] rbx.datamodel: setTaskSchedulerBackgroundMode() enable:false context:ASMA.start
+  [main] NativeGLInterface.setTaskSchedulerBackgroundMode returned
+[I/Roblox] 2026-09-26T18:44:08.425Z,1.425678,c51fe6c0,6,Info [FLog::ExtractPackageDefinition] No captured package definitions to restore
+  [engine] main-thread setTaskSchedulerBackgroundMode returned
+  [engine] nativeAppBridgeV2StartAppWithParams
+[I/Roblox] 2026-09-26T18:44:08.425Z,1.425941,73fff6c0,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2StartApp:
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426037,d811d6c0,6 [FLog::SingleSurfaceApp] startLuaApp: (stage:InitializedLuaApp).
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426072,d811d6c0,6 [FLog::SingleSurfaceApp] returnToLuaApp: (stage:InitializedLuaApp).
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426086,d811d6c0,6 [FLog::SingleSurfaceApp] returnToLuaAppInternal: ... App has been initialized, returning from game.
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426105,d811d6c0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x55b4b43f9580) [tid:0x7fe6d811d6c0]
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426146,d811d6c0,6,Warning [FLog::Graphics] RenderView created[1]
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426191,c51fe6c0,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: true
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426410,d811d6c0,6,Error [FLog::SurfaceController] Mode 6 failed: Unable to load Vulkan API
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426445,d811d6c0,6,Warning [FLog::Graphics] RenderView created[2]
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426463,d811d6c0,6 [FLog::Graphics] Window size: 1280x720
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426474,d811d6c0,6 [FLog::Graphics] Trying to choose EGL config r8 g8 b8 vsync0
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426484,d811d6c0,6 [FLog::Graphics] Created  context 0x55b4b43e3e60
+  [window] EGL context now current on engine thread
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426530,d811d6c0,6 [FLog::Graphics] Initialized EGL context 0x55b4b43e3e60 (surface 0x55b4b4384a10) with renderbuffer 1280x720
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426539,d811d6c0,6 [FLog::Graphics] EGL_MIN_SWAP_INTERVAL: -1
+[I/Roblox] 2026-09-26T18:44:08.426Z,1.426552,d811d6c0,6 [FLog::Graphics] eglSwapInterval(1)
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427222,d811d6c0,6 [FLog::Graphics] Android API 33
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427276,d811d6c0,6 [FLog::Graphics] Excluded 'Windows 11 PC:NV106' - disabling SuperHQ shaders
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427285,d811d6c0,6 [FLog::Graphics] GLES MT shader loading is disabled
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427292,d811d6c0,6,Warning [FLog::Graphics] Shader program binary support is: enabled
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427301,d811d6c0,6,Warning [FLog::Graphics] Caps: ASTC Support ( LDR: true, Sliced 3D: true, HDR: false, Volumetric 3D: false )
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427313,d811d6c0,6 [FLog::Graphics] GL Renderer: NV106
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427319,d811d6c0,6 [FLog::Graphics] GL Version: OpenGL ES 3.2 Mesa 26.2.3-arch1.1
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427325,d811d6c0,6 [FLog::Graphics] GL Vendor: Mesa
+[I/Roblox] 2026-09-26T18:44:08.427Z,1.427331,d811d6c0,6 [FLog::Graphics] GLSL version: OpenGL ES GLSL ES 3.20
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428841,d811d6c0,6 [FLog::Graphics] Ext: GL_AMD_performance_monitor GL_ANDROID_extension_pack_es31a GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428868,d811d6c0,6 [FLog::Graphics] Ext: GL_APPLE_sync GL_APPLE_texture_max_level GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_base_instance GL_EXT_blend_func_extended
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428875,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428881,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_color_buffer_half_float GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_debug_label
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428887,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_demote_to_helper_invocation GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428893,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_draw_instanced GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_point_size
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428899,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_memory_object GL_EXT_memory_object_fd
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428905,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_multi_draw_arrays GL_EXT_multi_draw_indirect GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428911,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428922,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_shader_clock GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_shader_io_blocks
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428929,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_shadow_samplers GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428935,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428942,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428948,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_query_lod GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428959,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_texture_shadow_lod GL_EXT_texture_storage GL_EXT_texture_storage_compression GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_view
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428967,d811d6c0,6 [FLog::Graphics] Ext: GL_EXT_unpack_subimage GL_EXT_window_rectangles GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428974,d811d6c0,6 [FLog::Graphics] Ext: GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428980,d811d6c0,6 [FLog::Graphics] Ext: GL_MESA_bgra GL_MESA_framebuffer_flip_y GL_MESA_sampler_objects GL_MESA_shader_integer_functions GL_NV_conditional_render GL_NV_draw_buffers
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428987,d811d6c0,6 [FLog::Graphics] Ext: GL_NV_fbo_color_attachments GL_NV_generate_mipmap_sRGB GL_NV_image_formats GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_read_buffer
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428993,d811d6c0,6 [FLog::Graphics] Ext: GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_NV_shader_noperspective_interpolation GL_NV_texture_barrier GL_OES_EGL_image
+[I/Roblox] 2026-09-26T18:44:08.428Z,1.428999,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_compressed_ETC1_RGB8_texture GL_OES_copy_image
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429006,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429012,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_fbo_render_mipmap GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_get_program_binary GL_OES_gpu_shader5 GL_OES_mapbuffer
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429018,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_shading
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429024,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_sample_variables GL_OES_shader_image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429030,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_stencil8 GL_OES_surfaceless_context GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_3D GL_OES_texture_border_clamp
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429036,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429043,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_OES_vertex_array_object
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429049,d811d6c0,6 [FLog::Graphics] Ext: GL_OES_vertex_half_float GL_OES_viewport_array
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429058,d811d6c0,6 [channel] Caps: ThreadSafe 0 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 0 Instancing 1 PerInstanceStream 0 ConstBuffers 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429067,d811d6c0,6 [channel] Caps: Framebuffer: MRT 8 MSAA 8 Stencil 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429074,d811d6c0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429081,d811d6c0,6 [channel] Caps: Border Color 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429088,d811d6c0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 0 R16I 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429095,d811d6c0,6 [channel] Caps: Texture: BC6H 0 ASTC HDR 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429101,d811d6c0,6 [channel] Caps: Texture: DXT 0 PVR 0 ETC1 1 ETC2 1 Half 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429107,d811d6c0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 0 MSAA 0 MSAAFP16 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429113,d811d6c0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429119,d811d6c0,6 [channel] Caps: Texture: Size 16384 Units 16 VertexUnits 32
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429125,d811d6c0,6 [channel] Caps: ConstantBufferSize 65536
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429131,d811d6c0,6 [channel] Caps: isAppleGPU 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429137,d811d6c0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429142,d811d6c0,6 [channel] Caps: RTFlip 1 MinusOneToOneDepth 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429148,d811d6c0,6 [FLog::Graphics] Caps: GL3 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429154,d811d6c0,6 [FLog::Graphics] Caps: VAO 1 TexStorage 1 MapBuffer 1 MapBufferRange 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429160,d811d6c0,6 [FLog::Graphics] Caps: TimerQuery 0 Sync 1 UBO 1 Views 1 Persistent 1
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429167,d811d6c0,6 [FLog::Graphics] GL feature level: OpenGL 3.2 UBO
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429178,d811d6c0,6,Warning [FLog::Graphics] Using bind buffer padding for UBOs on NV106
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429250,d811d6c0,6,Warning [FLog::Graphics] Loaded GL shader program cache. 1 shader programs loaded with 5293 bytes. 0.06397299999982842 msec.
+[I/Roblox] 2026-09-26T18:44:08.429Z,1.429394,d811d6c0,6 [FLog::Graphics] Video memory size: 1033722368
+[I/Roblox] 2026-09-26T18:44:08.434Z,1.434309,d811d6c0,6,Warning [FLog::Graphics] Loaded 1462 shaders from pack glsles3 variant default (3766641 bytes)
+[I/Roblox] 2026-09-26T18:44:08.434Z,1.434359,d811d6c0,6,Warning [FLog::Graphics] Compiled 622 shaders in 4 ms. Is Multi-Threaded Loading: false. Shader Loading Threads: 0 (TaskScheduler: 4, Requested: 8, HardMax: 8).
+[I/Roblox] 2026-09-26T18:44:08.434Z,1.434447,d811d6c0,6,Warning [FLog::Graphics] TM2: retry:false
+[I/Roblox] 2026-09-26T18:44:08.437Z,1.437126,d811d6c0,6,Warning [FLog::Graphics] TM2: maxCloudAssetDimension: 4096
+[I/Roblox] 2026-09-26T18:44:08.437Z,1.437157,d811d6c0,6 [FLog::Graphics] Using TM2 in MipPackStream mode
+[I/Roblox] 2026-09-26T18:44:08.437Z,1.437171,d811d6c0,6,Warning [FLog::Graphics] Using TexturePackGenerator.
+[I/Roblox] 2026-09-26T18:44:08.437Z,1.437178,d811d6c0,6,Warning [FLog::Graphics] LightGrid is unified
+[I/Roblox] 2026-09-26T18:44:08.463Z,1.463086,d811d6c0,6,Warning [FLog::Graphics] DRS init: denied=false fullSizeFramebufferDenied=false canUseHighDPIFullFB=false
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474652,d811d6c0,6 [FLog::SurfaceController] SurfaceController::disableVR
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474725,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::initialize
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474759,d811d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fe68435c4a0)
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474799,d811d6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474823,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController::RenderJob::setStartupThrottle: true
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474843,d811d6c0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fe68435c4a0)
+[I/Roblox] 2026-09-26T18:44:08.474Z,1.474886,d811d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:LuaApp)
+[I/Roblox] 2026-09-26T18:44:08.475Z,1.475024,d811d6c0,6 [FLog::SingleSurfaceApp] userDidLogin
+[I/Roblox] 2026-09-26T18:44:08.475Z,1.475049,d811d6c0,6 [FLog::SingleSurfaceApp] applyLocale
+  [engine] nativeAppBridgeV2StartAppWithParams returned
+  [experience] subscribed to dynamic launch requests
+  [theme] published SystemTheme.systemThemeUpdated (Dark)
+  [input] typed production input ready: mouse=1 touch=1 keyboard=1 text=1 gamepad=1
+  [engine] legacy startup call sequence returned
+
+======================================================
+  Bootstrap sequence returned; validating readiness.
+======================================================
+  [main] entering SDL event loop (close the window to quit)
+  [input] SDL system cursor hidden
+[I/Roblox] 2026-09-26T18:44:08.782Z,1.782047,32ffc6c0,6,Info [DFLog::RbxTransportIoLibContext] RbxTransport I/O backend chosen: sys
+[I/Roblox] 2026-09-26T18:44:08.828Z,1.828789,325fb6c0,6 [FLog::SessionTransitionFSM] Initialized.
+[I/Roblox] 2026-09-26T18:44:08.832Z,1.832113,325fb6c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+[I/Roblox] 2026-09-26T18:44:08.844Z,1.844812,c51fe6c0,6,Warning [FLog::DesignFoundationsCore] clearTokens: no platform implementation registered.
+[I/Roblox] 2026-09-26T18:44:08.892Z,1.892722,32ffc6c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+[I/Roblox] 2026-09-26T18:44:08.956Z,1.956353,31bfa6c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+[I/Roblox] 2026-09-26T18:44:08.956Z,1.956442,31bfa6c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+[I/Roblox] 2026-09-26T18:44:08.973Z,1.973134,31bfa6c0,6,Warning [FLog::SingleSurfaceApp] Restoring rendering frequency to normal.
+[I/Roblox] 2026-09-26T18:44:08.973Z,1.973184,31bfa6c0,6,Warning [FLog::SurfaceController] SurfaceController::RenderJob::setStartupThrottle: false
+[I/Roblox] 2026-09-26T18:44:09.030Z,2.030838,31bfa6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+[I/Roblox] 2026-09-26T18:44:09.030Z,2.030931,d811d6c0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+[I/Roblox] 2026-09-26T18:44:09.030Z,2.030967,d811d6c0,6,Warning [FLog::Graphics] TM2: maxCloudAssetDimension: 4096
+[I/Roblox] 2026-09-26T18:44:09.031Z,2.031278,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS80100001 is not available
+[I/Roblox] 2026-09-26T18:44:09.031Z,2.031304,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS40100001 is not available
+[I/Roblox] 2026-09-26T18:44:09.035Z,2.035744,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS80100007 is not available
+[I/Roblox] 2026-09-26T18:44:09.035Z,2.035769,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS40100007 is not available
+[I/Roblox] 2026-09-26T18:44:09.050Z,2.050597,d811d6c0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+[I/Roblox] 2026-09-26T18:44:09.051Z,2.051290,d811d6c0,6 [FLog::Graphics] Terrain TextureAtlas 2048x2048, tileCount: 6x6, tileSize: 256x256, border: 32, mip: 4
+[I/Roblox] 2026-09-26T18:44:09.055Z,2.055297,d811d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1280x720
+[I/Roblox] 2026-09-26T18:44:09.057Z,2.057002,d811d6c0,6,Warning [FLog::Graphics] Allocating UBO 139264
+  [window] shown on first Roblox frame
+  [window] first Roblox frame presented
+  [perf] present_sample frame=1 monotonic_ns=2222430220
+[I/Roblox] 2026-09-26T18:44:09.074Z,2.074384,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2UpdateSurfaceAppWithPlatformParams:
+[I/Roblox] 2026-09-26T18:44:09.074Z,2.074456,d811d6c0,6 [FLog::SingleSurfaceApp] updateSurfaceLuaApp: (stage:LuaApp)
+[I/Roblox] 2026-09-26T18:44:09.074Z,2.074478,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::update.
+  [game-session] typed window surface events committed=1 last_generation=1
+  [surface] LuaApp JNI rebind generation=1 pixels=950x515
+[I/Roblox] 2026-09-26T18:44:09.077Z,2.077123,d811d6c0,6 [FLog::Graphics] updateMainFramebuffer needs to resize context 0x55b4b43e3e60 (surface 0x55b4b4384a10) window 0x55b4b43f9580
+[I/Roblox] 2026-09-26T18:44:09.077Z,2.077211,d811d6c0,6 [FLog::Graphics] Trying to choose EGL config r8 g8 b8 vsync0
+  [window] EGL context now current on engine thread
+[I/Roblox] 2026-09-26T18:44:09.077Z,2.077244,d811d6c0,6 [FLog::Graphics] Reinitialized EGL context 0x55b4b43e3e60 (surface 0x55b4b4384a10) with renderbuffer 950x515
+[I/Roblox] 2026-09-26T18:44:09.078Z,2.078907,c51fe6c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular&includebackground=true&includeprofileframe=true" load failed: Error parsing batch thumbnail request, invalid format
+[I/Roblox] 2026-09-26T18:44:09.085Z,2.085989,31bfa6c0,6 [FLog::SessionTransitionFSM] Session history: IA
+[I/Roblox] 2026-09-26T18:44:09.086Z,2.086484,31bfa6c0,6 [FLog::SessionTransitionFSM] Entered app session.
+[I/Roblox] 2026-09-26T18:44:09.101Z,2.101713,d811d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 950x515
+[I/Roblox] 2026-09-26T18:44:09.102Z,2.102350,d811d6c0,6,Warning [FLog::Graphics] Allocating UBO 139264
+[I/Roblox] 2026-09-26T18:44:09.104Z,2.104770,d811d6c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular&includebackground=true&includeprofileframe=true" load failed: Temp read failed.
+[I/Roblox] 2026-09-26T18:44:09.130Z,2.130768,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2UpdateSurfaceAppWithPlatformParams:
+[I/Roblox] 2026-09-26T18:44:09.152Z,2.152347,d811d6c0,6 [FLog::SingleSurfaceApp] updateSurfaceLuaApp: (stage:LuaApp)
+[I/Roblox] 2026-09-26T18:44:09.152Z,2.152419,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::update.
+  [game-session] typed window surface events committed=1 last_generation=1
+  [surface] LuaApp JNI rebind generation=1 pixels=941x506
+[I/Roblox] 2026-09-26T18:44:09.152Z,2.152512,d811d6c0,6 [FLog::Graphics] updateMainFramebuffer needs to resize context 0x55b4b43e3e60 (surface 0x55b4b4384a10) window 0x55b4b43f9580
+[I/Roblox] 2026-09-26T18:44:09.152Z,2.152563,d811d6c0,6 [FLog::Graphics] Trying to choose EGL config r8 g8 b8 vsync0
+  [window] EGL context now current on engine thread
+[I/Roblox] 2026-09-26T18:44:09.152Z,2.152623,d811d6c0,6 [FLog::Graphics] Reinitialized EGL context 0x55b4b43e3e60 (surface 0x55b4b4384a10) with renderbuffer 941x506
+[I/Roblox] 2026-09-26T18:44:09.177Z,2.177936,d811d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 941x506
+[I/Roblox] 2026-09-26T18:44:09.180Z,2.180840,d811d6c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular&includebackground=true&includeprofileframe=true" load failed: Temp read failed.
+[I/Roblox] 2026-09-26T18:44:09.189Z,2.189508,d811d6c0,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular&includebackground=true&includeprofileframe=true" load failed: Invalid image or texture.
+[I/Roblox] 2026-09-26T18:44:09.216Z,2.216438,72f8d6c0,6,Info [DFLog::RbxTransportStunPopProbe] TURN seed: 24 PoPs (carried 0, fresh 24)
+[I/Roblox] 2026-09-26T18:44:09.320Z,2.320464,c51fe6c0,6,Warning [FLog::CreatorWarning] Warning: [Roblox][CorePackages.LuauForgeChunks.bundled] HTTP error url:`https://apis.roblox.com/attribution/v1/events/post-authentication`
+[I/Roblox] 2026-09-26T18:44:09.320Z,2.320533,c51fe6c0,6,Warning [FLog::CreatorWarning] Warning: [Roblox][CorePackages.LuauForgeChunks.bundled] HTTP error code:`nil`
+[I/Roblox] 2026-09-26T18:44:09.320Z,2.320554,c51fe6c0,6,Warning [FLog::CreatorWarning] Warning: [Roblox][CorePackages.LuauForgeChunks.bundled] HTTP error body:`nil`
+[I/Roblox] 2026-09-26T18:44:09.383Z,2.383146,32ffc6c0,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 28
+[I/Roblox] 2026-09-26T18:44:09.628Z,2.628531,c41fb6c0,12 [DFLog::HttpTraceError] HttpResponse(#16 0x7fe68b2836b0) time:692.8ms (net:341.1ms timeInRetryQueue:0.0ms)status:400  bodySize:88 url:{ "https://apis.roblox.com/user-settings-api/v1/user-settings" } ip:128.116.47.3 external:0 numberOfTimesRetried:0
+[I/Roblox] 2026-09-26T18:44:09.858Z,2.858979,31bfa6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config
+[I/Roblox] 2026-09-26T18:44:09.859Z,2.859123,31bfa6c0,6 [FLog::DataModelPatchConfigurer] Schedule OTA polling 3600 seconds from now.
+[I/Roblox] 2026-09-26T18:44:09.859Z,2.859345,31bfa6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Load configs for user key: app:14450630165483085263
+[I/Roblox] 2026-09-26T18:44:09.859Z,2.859506,31bfa6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config
+[I/Roblox] 2026-09-26T18:44:09.859Z,2.859572,31bfa6c0,6 [FLog::DataModelPatchConfigurer] Schedule OTA polling 3600 seconds from now.
+[I/Roblox] 2026-09-26T18:44:09.859Z,2.859603,31bfa6c0,6,Info [DFLog::FlagCache] [FlagCache] Writing pending flag cache to disk
+[I/Roblox] 2026-09-26T18:44:09.860Z,2.860499,c51fe6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Writing flag cache file to : /data/user/0/com.roblox.client/cache/flag_cache.dat
+[I/Roblox] 2026-09-26T18:44:09.860Z,2.860597,c51fe6c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Wrote signatureSize: 0
+[I/Roblox] 2026-09-26T18:44:09.860Z,2.860610,c51fe6c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Wrote signature of length 0. Signature: <signature too short to display>...
+[I/Roblox] 2026-09-26T18:44:09.860Z,2.860626,c51fe6c0,6,Debug [DFLog::FlagCache] [FlagCache] writeFlagCache: Wrote compression type: 1
+[I/Roblox] 2026-09-26T18:44:09.860Z,2.860632,c51fe6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Compressing flag cache data (input size: 1362938 bytes)
+[I/Roblox] 2026-09-26T18:44:09.870Z,2.870763,c51fe6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Compression complete. Output size: 383096 bytes, ratio: 3.56x, time: 10ms
+[I/Roblox] 2026-09-26T18:44:09.870Z,2.870988,c51fe6c0,6,Info [DFLog::FlagCache] [FlagCache] writeFlagCache: Successfully wrote 383101 bytes to file: /data/user/0/com.roblox.client/cache/flag_cache.dat, time: 10.489007999999966ms
+[I/Roblox] 2026-09-26T18:44:09.871Z,2.871206,32ffc6c0,6,Info [FLog::TombstoneCache] [FlagCache] Tombstone 1, expiry time 360, holdout false, channel 'production', written to file: /data/user/0/com.roblox.client/cache/tombstone.dat
+[I/Roblox] 2026-09-26T18:44:09.889Z,2.889198,c41fb6c0,6,Debug [FLog::AndroidAppUpdate] User is not in a channel
+[I/Roblox] 2026-09-26T18:44:10.053Z,3.053208,31bfa6c0,6,Warning [FLog::SingleSurfaceApp] Restoring rendering frequency to normal.
+[I/Roblox] 2026-09-26T18:44:10.053Z,3.053242,31bfa6c0,6,Warning [FLog::SurfaceController] SurfaceController::RenderJob::setStartupThrottle: false
+[I/Roblox] 2026-09-26T18:44:10.171Z,3.171617,32ffc6c0,6 [telemetryLog] Sending 'GmasdkInstantInstallIxpReadCounter' to ''
+  [permissions] PermissionsProtocol method=HasPermissions result=DENIED microphone=enabled transport=async
+  [permissions] PermissionsProtocol method=HasPermissions result=DENIED microphone=enabled transport=legacy
+[I/Roblox] 2026-09-26T18:44:10.262Z,3.262713,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA succeeded
+[I/Roblox] 2026-09-26T18:44:10.263Z,3.263513,c41fb6c0,6,Info [FLog::AssetsManifestManager] Checking existence of OTA Assets Manifest with OTA Config Name '80471914653504.13170' in RbxStorage: Found
+[I/Roblox] 2026-09-26T18:44:10.263Z,3.263570,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Update OTA config deployed
+[I/Roblox] 2026-09-26T18:44:10.263Z,3.263580,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] OTA config updated, checking patch
+[I/Roblox] 2026-09-26T18:44:10.263Z,3.263595,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_InExperiencePatch] Downloading new patch.
+[I/DataModelPatchConfigurer] in-app polling: downloading patch _InExperiencePatch assetId=80471914653504 assetVersion=13170
+[I/Roblox] 2026-09-26T18:44:10.268Z,3.268771,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA succeeded
+[I/Roblox] 2026-09-26T18:44:10.269Z,3.269468,c41fb6c0,6,Info [FLog::AssetsManifestManager] Checking existence of OTA Assets Manifest with OTA Config Name '118593852151835.13233' in RbxStorage: Found
+[I/Roblox] 2026-09-26T18:44:10.269Z,3.269538,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Update OTA config deployed
+[I/Roblox] 2026-09-26T18:44:10.269Z,3.269550,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] OTA config updated, checking patch
+[I/Roblox] 2026-09-26T18:44:10.269Z,3.269564,c41fb6c0,6 [FLog::DataModelPatchConfigurer] [_UniversalAppPatch] Downloading new patch.
+[I/DataModelPatchConfigurer] in-app polling: downloading patch _UniversalAppPatch assetId=118593852151835 assetVersion=13233
+[I/Roblox] 2026-09-26T18:44:10.850Z,3.850359,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS80000002 is not available
+[I/Roblox] 2026-09-26T18:44:10.850Z,3.850408,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedPlasticVS40000002 is not available
+[I/Roblox] 2026-09-26T18:44:10.856Z,3.856345,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedFlatOpaqueVS80000002 is not available
+[I/Roblox] 2026-09-26T18:44:10.856Z,3.856384,d811d6c0,6,Warning [FLog::Graphics] Error: shader DefaultUnifiedFlatOpaqueVS40000002 is not available
+[I/Roblox] 2026-09-26T18:44:10.878Z,3.878375,32ffc6c0,6,Warning [FLog::Output] Wrap-deformer fetching meshes resulted in error.  Skipping follow-on stages.
+[I/Roblox] 2026-09-26T18:44:10.878Z,3.878460,32ffc6c0,6,Warning [FLog::Output] Wrap-deformer fetching meshes resulted in error.  Skipping follow-on stages.
+  [input] first keyboard event reached Roblox native input
+[I/Roblox] 2026-09-26T18:44:12.004Z,5.004141,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2UpdateSurfaceAppWithPlatformParams:
+[I/Roblox] 2026-09-26T18:44:12.004Z,5.004216,d811d6c0,6 [FLog::SingleSurfaceApp] updateSurfaceLuaApp: (stage:LuaApp)
+[I/Roblox] 2026-09-26T18:44:12.004Z,5.004250,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::update.
+  [surface] LuaApp JNI rebind generation=1 pixels=1896x1026
+  [game-session] typed window surface events committed=1 last_generation=1
+[I/Roblox] 2026-09-26T18:44:12.016Z,5.016124,d811d6c0,6 [FLog::Graphics] updateMainFramebuffer needs to resize context 0x55b4b43e3e60 (surface 0x55b4b4384a10) window 0x55b4b43f9580
+[I/Roblox] 2026-09-26T18:44:12.016Z,5.016241,d811d6c0,6 [FLog::Graphics] Trying to choose EGL config r8 g8 b8 vsync0
+  [window] EGL context now current on engine thread
+[I/Roblox] 2026-09-26T18:44:12.016Z,5.016491,d811d6c0,6 [FLog::Graphics] Reinitialized EGL context 0x55b4b43e3e60 (surface 0x55b4b4384a10) with renderbuffer 1896x1026
+[I/Roblox] 2026-09-26T18:44:12.022Z,5.022923,d811d6c0,6 [FLog::Graphics] SceneManager: resizing main targets to 1896x1026
+[I/Roblox] 2026-09-26T18:44:12.546Z,5.546541,32ffc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch Local Patch DataModelPatchConfig : type=1, assetId=80471914653504, assetVersion=12454, maxAppVersion=736, localAssetURI=rbxasset://models/InExperience/InExperience.rbxm
+[I/Roblox] 2026-09-26T18:44:12.546Z,5.546603,32ffc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: config: 80471914653504.12454
+[I/Roblox] 2026-09-26T18:44:12.555Z,5.555603,32ffc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: numAttemptsRemaining: 1
+[I/Roblox] 2026-09-26T18:44:12.555Z,5.555663,32ffc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatchFromConfig: contentId=rbxasset://models/InExperience/InExperience.rbxm
+[I/Roblox] 2026-09-26T18:44:12.565Z,5.565043,32ffc6c0,6,Warning [FLog::DataModelPatchConfigurer] getCachedPatch: get patch from content provider for Model
+[I/Roblox] 2026-09-26T18:44:12.565Z,5.565120,32ffc6c0,6,Warning [DFLog::RbxmFileManager] Caching for rbxasset://models/InExperience/InExperience.rbxm is not enabled
+[I/Roblox] 2026-09-26T18:44:12.573Z,5.573982,32ffc6c0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+  [perf] present_sample frame=240 monotonic_ns=7338557370
+[I/Roblox] 2026-09-26T18:44:17.968Z,10.968306,c51fe6c0,6 [FLog::Error] Asset (Video) "" load failed in CoreGui.LuaAppScreenGui.RNAppContainer.NavigatorView.FocusRoot.FocusRoot.Scene.TopBarPageContent.HomeOmniFeed.ContentContainer.Content.LoadingStateContainer.scrollingFrame.Content.OmniFeed.feedItem_4.GameGrid.CollectionContent.GridOfItems.GameTile1.Tile.GameTileContent.ThumbnailFrame.Thumbnail.Video.VideoFrame.Video: Request failed
+[I/Roblox] 2026-09-26T18:44:17.968Z,10.968391,c51fe6c0,6,Error [FLog::CreatorError] Error: Failed to load video : Request failed
+  [perf] present_sample frame=480 monotonic_ns=11603660122
+  [main] window closed, shutting down
+  [input] typed production input stopped after observer clear
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765153,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2PauseApp:
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765242,d811d6c0,6,Warning [FLog::SingleSurfaceApp] pauseLuaAppAndDestroyIfNeeded: (stage:LuaApp) destroySurfaceView:true.
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765286,d811d6c0,6 [FLog::SingleSurfaceApp] pauseLuaApp: (stage:LuaApp) destroySurfaceView:true.
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765316,d811d6c0,6,Warning [FLog::SurfaceController] SurfaceController[_:1]::pause destroyView:true.
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765326,d811d6c0,6 [FLog::SurfaceController] drainRenderingJobs
+[I/Roblox] 2026-09-26T18:44:20.765Z,13.765476,d811d6c0,6,Warning [FLog::Graphics] TM2: maxCloudAssetDimension: 4096
+[I/Roblox] 2026-09-26T18:44:20.766Z,13.766150,d811d6c0,6,Warning [FLog::Graphics] RenderView destroyed[2]
+[I/Roblox] 2026-09-26T18:44:20.766Z,13.766197,d811d6c0,6,Warning [FLog::Graphics] TM2: maxCloudAssetDimension: 4096
+[I/Roblox] 2026-09-26T18:44:20.772Z,13.772993,d811d6c0,6,Warning [FLog::Graphics] Saved GL shader program cache. 1 shader programs saved with 5293 bytes. 2.483944999999821 msec.
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773335,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2PauseApp: Destroying ANativeWindow at 0x55b4b43f9580
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773374,e43ad440,6 [FLog::AndroidGLView] rbx.datamodel: setTaskSchedulerBackgroundMode() enable:true context:ASMA.stop
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773386,e43ad440,6,Info [FLog::JNIAppBridge] nativeAppBridgeV2DestroyApp:
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773411,d811d6c0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:LuaApp) blocking:true.
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773429,d811d6c0,6 [FLog::SurfaceController] stop
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773439,d811d6c0,6 [FLog::SurfaceController] drainRenderingJobs
+[I/Roblox] 2026-09-26T18:44:20.773Z,13.773450,d811d6c0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: finalize: Did not finalize due to state.
+[I/Roblox] 2026-09-26T18:44:20.920Z,13.920788,d811d6c0,6,Info [FLog::TestServiceLog] [onServiceProvider] DebugUTPLauncherWebSocketUri='' wsOptIn=0
+[I/Roblox] 2026-09-26T18:44:20.937Z,13.937550,d811d6c0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:LuaApp)... finished destroying luaApp.
+[I/Roblox] 2026-09-26T18:44:20.937Z,13.937597,d811d6c0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+  [main] Roblox lifecycle shutdown: Stopped (Roblox app lifecycle shutdown completed)
+  [mocktail][audio] fmod_java shutdown submitted_buffers=0 submitted_bytes=0 consumed_buffers=0 consumed_bytes=0 discarded_buffers=0 discarded_bytes=0 pending_buffers=0
+  [input] SDL system cursor shown

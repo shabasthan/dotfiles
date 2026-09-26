@@ -1,0 +1,215 @@
+config_version = 14
+
+[accessibility]
+ui_scale = 0.95000000670552254
+
+[bar.default]
+background_opacity = 0.54999998770654202
+capsule_radius = 3
+center = [ "media" ]
+concave_edge_corners = false
+end = [
+    "cpu",
+    "ram",
+    "tray",
+    "clipboard",
+    "network",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "battery",
+    "control-center",
+    "notifications",
+    "session"
+]
+font_family = "JetBrainsMono Nerd Font"
+font_weight = 700
+margin_ends = 10
+radius = 5
+start = [ "clock", "launcher", "wallpaper", "workspaces", "launcher" ]
+thickness = 30
+widget_spacing = 20
+
+    [bar.default.dead_zone.actions]
+    right = "none"
+
+[control_center]
+hidden_tabs = [ "power", "weather" ]
+show_session_button = false
+show_shortcut_labels = false
+show_version = false
+user_card_fields = [ "host", "uptime" ]
+
+[desktop_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000001" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 336.0
+    box_width = 1920.0
+    cx = 960.0
+    cy = 908.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = -0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background = false
+        bands = 40
+        centered = false
+        color_1 = "primary"
+        color_2 = "primary"
+        mirrored = true
+        reversed = false
+        show_when_idle = false
+
+[location]
+address = "Kozhikode, India"
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@HDMI-A-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugin_settings."whyoolw/dropwall"]
+layer = "bottom"
+
+[plugins]
+enabled = [ "liamwh/emoji-picker" ]
+
+[shell]
+avatar_path = "/home/akkiii/Pictures/pfp1.jpg"
+font_family = "JetBrainsMono NF"
+panel_anchor_bar = "default"
+settings_window_translucent = true
+time_format = "{:%I:%M}"
+
+    [shell.animation]
+    speed = 1.2500000186264515
+
+    [shell.greeter_sync]
+    auto_sync = true
+    privilege_command = "pkexec"
+
+    [shell.launcher]
+    pinned = [ "firefox" ]
+
+    [shell.panel]
+    clipboard_position = "auto"
+    floating_layer = "top"
+    open_near_click_clipboard = true
+    open_near_click_control_center = true
+    open_near_click_wallpaper = true
+    transparency_mode = "glass"
+    wallpaper_placement = "floating"
+
+    [shell.window_switcher]
+    mru = true
+
+[theme]
+builtin = "Rosé Pine"
+community_palette = "Tokyo Night Storm"
+mode = "dark"
+pure_black_dark = true
+shell_mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "hyprland", "kitty", "qt" ]
+    community_ids = [ "discord", "neovim", "fastfetch" ]
+
+[wallpaper]
+directory = "/home/akkiii/Pictures/walls"
+directory_dark = "/home/akkiii/Pictures/walls"
+directory_light = "/home/akkiii/Pictures/walls"
+transition = [ "honeycomb", "zoom" ]
+transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/akkiii/Pictures/walls/cosmos_1204300604.webp"
+
+    [wallpaper.last]
+    path = "/home/akkiii/Pictures/walls/cosmos_1204300604.webp"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/akkiii/Pictures/walls/cosmos_1204300604.webp"
+
+[widget.clipboard]
+enabled = false
+
+[widget.clock]
+format = "{:%I:%M}"
+
+[widget.control-center]
+enabled = false
+
+[widget.cpu]
+visualization = "none"
+
+[widget.launcher]
+enabled = false
+
+[widget.media]
+capsule_radius = 5
+font_family = "JetBrainsMono Nerd Font"
+hide_artist = true
+hide_when_no_media = true
+max_length = 350
+title_scroll = "on_hover"
+
+[widget.network]
+show_label = false
+
+[widget.ram]
+stat = "ram_pct"
+visualization = "none"
+
+[widget.session]
+enabled = false
+
+[widget.wallpaper]
+enabled = false
+
+[widget.workspaces]
+active_pill_size = 2.9500000000000002
